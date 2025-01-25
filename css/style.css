@@ -1,0 +1,296 @@
+.user-avatar img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logged_in_user {
+    font: normal normal bold 14px/19px Manrope;
+    color: #072635;
+    opacity: 1;
+}
+
+.logged_in_user a{
+    font: normal normal bold 14px/19px Manrope;
+    color: #072635;
+    opacity: 1;
+}
+
+.patient_overview {
+    font: normal normal normal 14px/19px Manrope;
+    color: #707070;
+    opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+    .header-banner {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .navigation-panel {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .user-avatar {
+        margin-bottom: 10px;
+    }
+
+    .d-flex.align-items-center.text-right {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.table thead,
+.table tr {
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.table thead,
+.table tr td {
+    text-align: left;
+    font: normal normal normal 14px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+
+.table-rounded thead th {
+    border: none;
+    background-color: #F6F7F8;
+}
+
+.table-rounded thead th:first-child {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.table-rounded thead th:last-child {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.borderless td,
+.borderless th {
+    border: none;
+}
+
+
+.tech-headings,
+.single-patient-title-head,
+.single-patient-title-data {
+    text-align: left;
+    font: normal normal 800 24px / 33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.single-patient-title-head {
+    font: normal normal 500 14px/19px Manrope;
+}
+
+.single-patient-title-data {
+    font: normal normal bold 14px/19px Manrope;
+}
+
+
+.profile-section {
+    align-items: center;
+}
+
+.profile-section .user-avatar img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.profile-section .text-right {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+
+    /* Adjustments for smaller screens if needed */
+    .profile-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-section .text-right {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .profile-section .ml-2 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+ 
+}
+
+
+
+@media (max-width: 767.98px) {
+    .navigation-panel, .profile-section {
+        display: none;
+    }
+
+    .top-logo.d-none {
+        display: block !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    .client-info-section {
+        padding: 1rem; 
+    }
+
+    .card.respiratory-rate,
+    .card.temperature,
+    .card.heart-rate {
+        text-align: center; 
+    }
+
+    .card-body {
+        padding: 1rem; 
+    }
+
+    .table-responsive {
+        overflow-x: auto; 
+        -webkit-overflow-scrolling: touch; 
+    }
+}
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.header-banner {
+    height: 72px !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border-radius: 70px !important;
+    opacity: 1 !important;
+    padding: 0 20px;
+}
+
+.top-logo img {
+    width: 100%;
+    max-width: 211px;
+    height: auto;
+}
+
+
+.navigation-panel {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+}
+
+.main_nav_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+    text-align: center;
+}
+
+.main_nav_button .icon {
+    margin-right: 8px;
+}
+
+.main_nav_button img {
+    width: 24px;
+    height: auto;
+}
+
+.btn-primary-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+    height: 41px;
+    background: #01F0D0 0% 0% no-repeat padding-box;
+    border-radius: 41px;
+    border: 0px;
+    line-height: 30px;
+}
+
+.card {
+    border-radius: 1.25rem;
+}
+
+.table-secondary,
+.table-secondary>td,
+.table-secondary>th {
+    background: #F6F7F8 0% 0% no-repeat padding-box;
+}
+
+.card-title {
+    text-align: left;
+    font: normal normal 800 16px/22px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.card .respiratory-rate {
+    background: #E0F3FA 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.card .temperature {
+    background: #FFE6E9 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.card .heart-rate {
+    background: #FFE6F1 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.card-text {
+    text-align: left;
+    font: normal normal 800 30px/41px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.card-img-top {
+    width: 96px;
+    height: 96px;
+}
+
+.card-body span {
+    text-align: left;
+    font: normal normal 800 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
